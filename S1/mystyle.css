@@ -1,0 +1,78 @@
+body{
+
+    font-family: 'Lato', sans-serif;
+}
+header{
+
+    background-image: url(img/hur1.jpg);
+    height: 50vh;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    display: block;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.433);
+
+}
+main{
+    padding-top: 20px;
+    height: 150vh;
+}
+
+footer{
+    background: black;
+    height: 10px;
+}
+    
+
+.location{
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 5px;
+    width: 500px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    /*it can be greyscale, blurred.*/
+
+}
+.gray{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+}
+
+
+figure{
+    width: 450px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container{
+    position: relative;
+}
+
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    color: red;
+
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ;
+
+
+
+}
